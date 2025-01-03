@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "type": "sell",
+    "price": 300000,
+    "real_estate": {
+      "category": "house",
+      "surface": 120,
+      "construction_year": 1990,
+      "image": "house.jpg"
+    }
+  },
+  {
+    "id": 2,
+    "type": "rent",
+    "price": 1500,
+    "real_estate": {
+      "category": "apartment",
+      "surface": 75,
+      "construction_year": 2005,
+      "image": "apartment.jpg"
+    }
+  },
+  {
+    "id": 3,
+    "type": "sell",
+    "price": 600000,
+    "real_estate": {
+      "category": "house",
+      "surface": 120,
+      "construction_year": 1978,
+      "image": "house1.jpg"
+    }
+  },
+  {
+    "id": 4,
+    "type": "rent",
+    "price": 4500,
+    "real_estate": {
+      "category": "house",
+      "surface": 75,
+      "construction_year": 2021,
+      "image": "house2.jpg"
+    }
+  },
+  {
+    "id": 5,
+    "type": "sell",
+    "price": 3000000,
+    "real_estate": {
+      "category": "house",
+      "surface": 120,
+      "construction_year": 2017,
+      "image": "house3.jpg"
+    }
+  },
+  {
+    "id": 6,
+    "type": "rent",
+    "price": 1500,
+    "real_estate": {
+      "category": "apartment",
+      "surface": 75,
+      "construction_year": 2005,
+      "image": "apartment.jpg"
+    }
+  },
+  {
+    "id": 7,
+    "type": "sell",
+    "price": 300000,
+    "real_estate": {
+      "category": "house",
+      "surface": 120,
+      "construction_year": 1990,
+      "image": "house.jpg"
+    }
+  },
+  {
+    "id": 8,
+    "type": "rent",
+    "price": 1500,
+    "real_estate": {
+      "category": "apartment",
+      "surface": 75,
+      "construction_year": 2005,
+      "image": "apartment.jpg"
+    }
+  },
+  {
+    "id": 9,
+    "type": "sell",
+    "price": 300000,
+    "real_estate": {
+      "category": "house",
+      "surface": 120,
+      "construction_year": 1990,
+      "image": "house.jpg"
+    }
+  },
+  {
+    "id": 10,
+    "type": "rent",
+    "price": 1500,
+    "real_estate": {
+      "category": "apartment",
+      "surface": 75,
+      "construction_year": 2005,
+      "image": "apartment.jpg"
+    }
+  },
+  {
+    "id": 11,
+    "type": "sell",
+    "price": 300000,
+    "real_estate": {
+      "category": "house",
+      "surface": 120,
+      "construction_year": 1990,
+      "image": "house.jpg"
+    }
+  },
+  {
+    "id": 12,
+    "type": "rent",
+    "price": 1500,
+    "real_estate": {
+      "category": "apartment",
+      "surface": 75,
+      "construction_year": 2005,
+      "image": "apartment.jpg"
+    }
+  }
+]

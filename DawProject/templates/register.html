@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration</title>
+    <link rel="stylesheet" href="../static/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Register</h2>
+      <form
+        id="registerForm"
+        class="form"
+        action="{{ url_for('register') }}"
+        method="post"
+      >
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required />
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" required />
+        <button type="submit">Register</button>
+        <p id="message"></p>
+      </form>
+      <a href="/">Go back to home</a>
+      <p>Already have an account? <a href="/login">Log in here</a></p>
+    </div>
+    <script src="../static/script.js"></script>
+  </body>
+</html>

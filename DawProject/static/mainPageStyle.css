@@ -1,0 +1,50 @@
+      body,
+      h1,
+      p {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+      }
+      .navbar {
+        display: flex;
+        justify-content: flex-end;
+        background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+        padding: 10px 20px;
+      }
+      .navbar a {
+        color: white;
+        text-decoration: none;
+        margin-left: 20px;
+        text-transform: uppercase;
+        font-size: 16px;
+        transition: color 0.3s; /* Smooth transition for color change */
+      }
+
+      .navbar a:hover {
+        color: #ffd700; /* Gold color on hover, you can change it to whatever color you prefer */
+      }
+
+      .hero-section {
+        background-image: url("https://assets.weforum.org/article/image/v2gQQH6Qq5EAJSemo1Yqie27aYBOHE4pSwA6jSkFHKg.jpg");
+        background-size: cover;
+        background-position: center;
+        color: white;
+        text-align: center;
+        height: calc(100vh - 40px); /* Adjusted for the navbar height */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .hero-text {
+        z-index: 2; /* Ensures the text is above the background image */
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a shadow effect to the text */
+      }
+      
+      .hero-section h1 {
+        font-size: 70px; /* Adjust size as needed */
+        margin-bottom: 20px;
+      }
+      
+      .hero-section p {
+        font-size: 36px; /* Adjust size as needed */
+      }
