@@ -4,7 +4,7 @@ import pandas as pd;
 import json
 
 app = Flask(__name__)
-data_file = 'D:\\Master\\TIM\\DawProject\\users.xlsx'
+data_file = "D:\\Master\\TIM\\TIM\\MainProject\\users.xlsx"
 
 saved_announcements = []
 
@@ -75,7 +75,7 @@ def goToAnnouncements():
     price_range_filter = request.args.get('priceRange')
 
     # Load announcements data from JSON
-    with open('D:\\Master\\TIM\\DawProject\\announcements.json') as file:
+    with open("D:\\Master\\TIM\\TIM\\MainProject\\announcements.json") as file:
         all_announcements = json.load(file)
 
     # Filter the announcements based on the filter options provided
@@ -123,7 +123,7 @@ def logout():
 def my_account():
     global saved_announcements  # Use the global variable
 
-    with open('D:\\Master\\TIM\\DawProject\\announcements.json') as file:
+    with open("D:\\Master\\TIM\\TIM\\MainProject\\announcements.json") as file:
         all_announcements = json.load(file)
 
     saved_announcements_data = []
